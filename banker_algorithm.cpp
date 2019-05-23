@@ -19,7 +19,7 @@ int main()
                       { 1, 1, 1, 1},   //P3 
                       { 2, 1, 1, 0} }; //P4 
   
-    int avail[4] = { 0, 0, 0, 0 }; // Available Resources 
+    int avail[4] = { 1, 0, 2, 0 }; // Available Resources 
   
     int f[processes], ans[processes], ind = 0; 
 
