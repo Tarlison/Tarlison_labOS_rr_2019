@@ -1,9 +1,9 @@
 # Tarlison_labos_rr_2019
 Repository to the laboratory of the discipline of Operational Systems 2019.1
 
-Instructions for compiling the algorithms:
-		1 - You must have installed one of the latest packages of g ++ (I'm using version 8.3);
-		2 - Open the terminal in the folder where the program file is located;
+	Instructions for compiling the algorithms:
+			1 - You must have installed one of the latest packages of g ++ (I'm using version 8.3);
+			2 - Open the terminal in the folder where the program file is located;
 
 		For the banker's algorithms;
 			3 - Type g++ <filename> -o <filename>
