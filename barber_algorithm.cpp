@@ -68,6 +68,9 @@ int main() {
      while(TRUE) {
         pthread_create(&c, NULL, customer, NULL);
         sleep(1);
+        cout << "customers waiting in the chairs: " << waiting << endl;
+        sleep(1);
+
     }
 
     return 0;
