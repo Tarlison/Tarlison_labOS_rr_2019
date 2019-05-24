@@ -33,7 +33,7 @@ void *barber(void *arg) {
 void *customer(void *arg) {
     sem_wait(&mutex);
     /*If the amount of waiting customers is less than 
-    the amount of chairs means there is room to sit and wait.*/
+    the amount of chairs means there is chairs to sit and wait.*/
     if(waiting < CHAIRS){     
         cout << "Customer arrived to cut hair" << endl;
         waiting = waiting + 1;  
